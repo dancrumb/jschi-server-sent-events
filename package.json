@@ -1,7 +1,7 @@
 {
   "name": "server-sent-events",
   "version": "0.1.0",
-  "license": "UNLICENSE",
+  "license": "Unlicense",
   "dependencies": {
     "event-source-polyfill": "^0.0.11",
     "koa": "^2.3.0",
@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "node server/app.js"
   }
 }

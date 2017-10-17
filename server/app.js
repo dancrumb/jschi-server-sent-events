@@ -14,7 +14,8 @@ const events = [
   'Cat ran away',
   'Felt uneasy',
   'Creepy child showed up',
-  'Weird writing on wall'
+  'Weird writing on wall',
+  'Unearthly moans abound'
 ];
 
 const getRandomEvent = () => ({event: events[Math.floor(Math.random() * events.length)]});
